@@ -33,6 +33,9 @@ footer {
 	padding-bottom: 3vh;
 }
 
+.nav-up {
+	background-color: #fff;
+}
 
 .nav-link:hover + .nav-line{
 	opacity: 1;
@@ -87,8 +90,8 @@ footer {
 
 .map {
 	width: 60vw;
-	height: 54vh;
-	background-image: url("../image/story3.jpg");
+	height: 60vh;
+	background-image: url("../image/map.png");
 	background-size: cover; 
 }
 
@@ -101,6 +104,7 @@ footer {
 	height: 100vh;
 	background-image: url("../image/background.png");
 	background-size: cover;
+	background-attachment: scroll;
 }
 
 .download {
@@ -120,7 +124,7 @@ footer {
 .dots {
 	position: fixed;
 	top: 50%;
-	right: 5%;
+	right: 2%;
 	transform: translate(0,-50%);
 }
 
@@ -138,6 +142,30 @@ footer {
 	border-radius: 50%;
 	border: solid 2px #2c2d32;
 }
+
+#text1 {
+	transform: translate(0, 60%);
+	transition: transform 1s ease;
+}
+
+#pic1 {
+	transform: translate(0, 0);
+	transition: transform 1s ease;
+}
+
+#text2 {
+	transform: translate(-120%, 50%);
+	transition: transform 1s ease;
+}
+
+#pic2 {
+	transform: translate(100%, 0);
+	transition: transform 1s ease;
+}
+
+
+
+
 
 
 
@@ -159,6 +187,62 @@ footer {
 	margin-top: 25vh;
 }
 
+
+
+
+
+
+.us {
+	height: 120vh;
+}
+
+.people1 {
+	background-image: url("../image/people1.png");
+	background-size: cover;
+	height: 120vh;
+	transition: 1s ease;
+}
+
+.people2 {
+	background-image: url("../image/people2.png");
+	background-size: cover;
+	height: 120vh;
+	transition: 1s ease;
+}
+
+.people3 {
+	background-image: url("../image/people3.png");
+	background-size: cover;
+	height: 120vh;
+	transition: 1s ease;
+}
+
+.people4 {
+	background-image: url("../image/people4.png");
+	background-size: cover;
+	height: 120vh;
+	transition: 1s ease;
+}
+
+.people1:hover {
+	background-image: url("../image/people.png");
+	transform: rotateY(180deg);
+}
+
+.people2:hover {
+	background-image: url("../image/people.png");
+	transform: rotateY(180deg);
+}
+
+.people3:hover {
+	background-image: url("../image/people.png");
+	transform: rotateY(180deg);
+}
+
+.people4:hover {
+	background-image: url("../image/people.png");
+	transform: rotateY(180deg);
+}
 
 
 
