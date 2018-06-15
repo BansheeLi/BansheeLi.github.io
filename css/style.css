@@ -1,0 +1,180 @@
+@font-face {
+	font-family: PingFangSC;
+	src: url("../asset/PingFang-SC.ttf");
+}
+
+nav a {
+	font-size: 16px;
+	letter-spacing: 1px;
+	color: #2c2d32;
+}
+
+nav a:hover {
+	color: #2c2d32;
+}
+
+h1 {
+	font-family: "Montserrat", "PingFangSC";
+	font-size: 36px;
+	font-weight: 600;
+	letter-spacing: 2px;
+	color: #2c2d32;
+	margin: 0;
+}
+
+p {
+	font-family: "Montserrat", "PingFangSC";
+	font-size: 16px;
+	color: #2c2d32;
+	margin: 0;
+}
+
+footer {
+	padding-bottom: 3vh;
+}
+
+
+.nav-link:hover + .nav-line{
+	opacity: 1;
+}
+
+.nav-line {
+	width: 26px;
+	border-bottom: solid 2px #d6f046;
+	opacity: 0;
+}
+
+
+
+
+.story {
+	height: 160vh;
+	margin-top: 15vh;
+}
+
+.story1 {
+	width: 42vw;
+	height: 38vh;
+	background-image: url("../image/story1.jpeg");
+	background-size: cover;
+	box-shadow: 0 0 30px rgba(0,0,0,0.3);
+}
+
+.story2 {
+	width: 42vw;
+	height: 38vh;
+	background-image: url("../image/story2.jpeg");
+	background-size: cover;
+	box-shadow: 0 0 30px rgba(0,0,0,0.3);
+}
+
+.story3 {
+	width: 42vw;
+	height: 38vh;
+	background-image: url("../image/story3.jpg");
+	background-size: cover;
+	box-shadow: 0 0 30px rgba(0,0,0,0.3);
+}
+
+
+
+
+
+.contact {
+	height: 80vh;
+	margin-top: 15vh;
+}
+
+.map {
+	width: 60vw;
+	height: 54vh;
+	background-image: url("../image/story3.jpg");
+	background-size: cover; 
+}
+
+
+
+
+
+.product {
+	width: 100vw;
+	height: 100vh;
+	background-image: url("../image/background.png");
+	background-size: cover;
+}
+
+.download {
+	width: 209px;
+	height: 54px;
+	border-radius: 43px;
+	border: none;
+	background-color: #d6f046;
+	box-shadow: 0 2px 20px 0 rgba(0, 0, 0, 0.15);
+	font-family: "Montserrat";
+	font-size: 20px;
+	font-weight: 500;
+	letter-spacing: 1.3px;
+	color: #2c2d32;
+}
+
+.dots {
+	position: fixed;
+	top: 50%;
+	right: 5%;
+	transform: translate(0,-50%);
+}
+
+.dot-active {
+	width: 16px;
+	height: 16px;
+	border-radius: 50%;
+	border: solid  2px #2c2d32; 
+	background-color: #2c2d32;
+}
+
+.dot {
+	width: 16px;
+	height: 16px;
+	border-radius: 50%;
+	border: solid 2px #2c2d32;
+}
+
+
+
+
+.welcome {
+	height: 100vh;
+}
+
+.welcome-pic {
+	width: 100vw;
+	height: 100vh;
+	background-image: url("../image/welcome.png");
+	background-size: cover;
+}
+
+
+.story-latest {
+	height: 75vh;
+	margin-top: 25vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
