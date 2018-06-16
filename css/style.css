@@ -101,10 +101,10 @@ footer {
 
 .product {
 	width: 100vw;
-	height: 100vh;
+	height: 300vh;
 	background-image: url("../image/background.png");
 	background-size: cover;
-	background-attachment: scroll;
+	/*background-attachment: scroll;*/
 }
 
 .download {
@@ -143,26 +143,35 @@ footer {
 	border: solid 2px #2c2d32;
 }
 
+
+
 #text1 {
-	transform: translate(0, 60%);
-	transition: transform 1s ease;
+	transform: translate(0, -50%);
+	/*transition: transform 1s ease;*/
 }
 
 #pic1 {
-	transform: translate(0, 0);
-	transition: transform 1s ease;
+	transform: translate(0, 10%);
+	/*transition: transform 1s ease;*/
 }
 
 #text2 {
-	transform: translate(-120%, 50%);
-	transition: transform 1s ease;
+	transform: translate(0, -50%);
+	/*transition: transform 1s ease;*/
 }
 
 #pic2 {
-	transform: translate(100%, 0);
-	transition: transform 1s ease;
+	transform: translate(0, 10%);
+	/*transition: transform 1s ease;*/
 }
 
+#text3 {
+	transform: translate(0, -50%);
+}
+
+#pic3 {
+	transform: translate(0, 10%); 
+}
 
 
 

@@ -7,6 +7,7 @@
         <title>ROBUSTIME-HOME</title>
         <!-- css files -->
         <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdn.rawgit.com/alvarotrigo/fullPage.js/master/jquery.fullPage.css">
         <link href="https://use.fontawesome.com/releases/v5.0.2/css/all.css" rel="stylesheet">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat|Montserrat:light">
         <link rel="stylesheet" type="text/css" href="css/style.css"> 
@@ -59,9 +60,9 @@
                 </div>
             </div>
         </section>
-        <section id="product1" class="product">
-            <div class="container-fluid"  style="padding-left: 3vw; padding-right: 3vw">
-                <div class="row">
+        <section id="fullpage">
+            <div class="container-fluid section active" style="padding-left: 3vw; padding-right: 3vw">
+                <div class="row slide active product" style="height: 100vh">
                     <div class="col-md-6" style="position: relative">
                         <div id="text1" style="position: absolute; top: 50%">
                             <h1>更专业的会员服务</h1>
@@ -71,19 +72,15 @@
                             <button class="download" style="margin-top: 96px">DOWNLOAD</button>
                         </div>
                     </div>
-                    <div id="pic1" class="col-md-6" style="position: relative">
-                        <div style="position: absolute; top: 50%)">
-                            <img src="image/product1.png" width="615px">
+                    <div class="col-md-6" style="position: relative">
+                        <div id="pic1" style="position: absolute; top: 50%)">
+                            <img src="image/member.gif" width="615px">
                         </div>
                     </div>
                 </div>
-            </div>
-        </section>
-        <section id="product2">
-            <div class="container-fluid"  style="padding-left: 3vw; padding-right: 3vw">
-                <div class="row">
-                    <div id="text2" class="col-md-6" style="position: relative">
-                        <div style="position: absolute; top: 50%">
+                <div class="row slide product" style="height: 100vh">
+                    <div class="col-md-6" style="position: relative">
+                        <div id="text2" style="position: absolute; top: 50%">
                             <h1>更高效的教练助手</h1>
                             <p style="font-size: 18px; margin-top: 20px">智能的会员排课，预提醒每天教练工作，同步共享会员运动表现，留出更多时间专注指导！</p>
                             <h1 style="font-size: 24px; margin-top: 43px; font-weight: 500">More Efficient Coach</h1>
@@ -91,19 +88,15 @@
                             <button class="download" style="margin-top: 96px">DOWNLOAD</button>
                         </div>
                     </div>
-                    <div id="pic2" class="col-md-6" style="position: relative">
-                        <div style="position: absolute; top: 50%)">
-                            <img src="image/product1.png" width="615px">
+                    <div class="col-md-6" style="position: relative">
+                        <div id="pic2" style="position: absolute; top: 50%)">
+                            <img src="image/member.gif" width="615px">
                         </div>
                     </div>
                 </div>
-            </div>
-        </section>
-        <section id="product3" style="display: none">
-            <div class="container-fluid"  style="padding-left: 3vw; padding-right: 3vw">
-                <div id="text3" class="row">
+                <div class="row slide product" style="height: 100vh">
                     <div class="col-md-6" style="position: relative">
-                        <div style="position: absolute; top: 50%; transform: translate(0,40%)">
+                        <div id="text3" style="position: absolute; top: 50%">
                             <h1>更简单的运营管理</h1>
                             <p style="font-size: 18px; margin-top: 20px">对健身工作室提供云端信息管理平台，云服务只做两件事：一是解放管理者事务性工作，降低运营成本；二是提供精准获客营销。</p>
                             <h1 style="font-size: 24px; margin-top: 43px; font-weight: 500">Easier Operation Management</h1>
@@ -112,14 +105,17 @@
                         </div>
                     </div>
                     <div class="col-md-6" style="position: relative">
-                        <div style="position: absolute; top: 50%)">
-                            <img src="image/product1.png" width="615px">
+                        <div id="pic3" style="position: absolute; top: 50%)">
+                            <img src="image/member.gif" width="615px">
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <section class="story-latest" style="display: none">
+        
+        
+        
+        <section class="story-latest">
             <div class="container-fluid" style="padding-left: 3vw; padding-right: 3vw">
                 <div class="row">
                     <div class="col-md-12">
@@ -138,7 +134,7 @@
                 </div>
             </div>
         </section>
-        <div class="dots">
+        <div class="dots" style="display: none">
             <ul style="list-style: none">
                 <li>
                     <a href="#">
@@ -171,6 +167,7 @@
             </div>
         </footer>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.7/jquery.fullpage.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
         <script src="js/bootstrap.min.js"></script>
         <script src="js/custom.js"></script>
