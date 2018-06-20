@@ -159,21 +159,21 @@ footer {
 .wslide1 {
 	width: 100vw;
 	height: 100vh;
-	background-image: url("../image/welcome1.png");
+	background-image: url("../image/welcome1.jpg");
 	background-size: cover;
 }
 
 .wslide2 {
 	width: 100vw;
 	height: 100vh;
-	background-image: url("../image/welcome2.png");
+	background-image: url("../image/welcome2.jpg");
 	background-size: cover;
 }
 
 .wslide3 {
 	width: 100vw;
 	height: 100vh;
-	background-image: url("../image/welcome3.png");
+	background-image: url("../image/welcome3.jpg");
 	background-size: cover;
 }
 
