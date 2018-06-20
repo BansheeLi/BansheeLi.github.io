@@ -34,7 +34,8 @@ footer {
 }
 
 .nav-up {
-	background-color: #fff;
+	background-color: #f2f2f2;
+/*    transition: background-color .5s ease;*/
 }
 
 .nav-link:hover + .nav-line{
@@ -51,14 +52,14 @@ footer {
 
 
 .story {
-	height: 160vh;
+	height: 110vh;
 	margin-top: 15vh;
 }
 
 .story1 {
 	width: 42vw;
 	height: 38vh;
-	background-image: url("../image/story1.jpeg");
+	background-image: url("../image/story1.jpg");
 	background-size: cover;
 	box-shadow: 0 0 30px rgba(0,0,0,0.3);
 }
@@ -66,18 +67,11 @@ footer {
 .story2 {
 	width: 42vw;
 	height: 38vh;
-	background-image: url("../image/story2.jpeg");
+	background-image: url("../image/story2.jpg");
 	background-size: cover;
 	box-shadow: 0 0 30px rgba(0,0,0,0.3);
 }
 
-.story3 {
-	width: 42vw;
-	height: 38vh;
-	background-image: url("../image/story3.jpg");
-	background-size: cover;
-	box-shadow: 0 0 30px rgba(0,0,0,0.3);
-}
 
 
 
@@ -99,12 +93,11 @@ footer {
 
 
 
-.product {
+.section2 {
 	width: 100vw;
-	/*height: 300vh;*/
-	background-image: url("../image/background.png");
+	background-image: url("../image/bkg.png");
 	background-size: cover;
-	/*background-attachment: scroll;*/
+	background-repeat: no-repeat;
 }
 
 .download {
@@ -121,48 +114,30 @@ footer {
 	color: #2c2d32;
 }
 
-.dots {
-	position: fixed;
-	top: 50%;
-	right: 2%;
-	transform: translate(0,-50%);
+.fp-slidesNav ul {
+    text-align: center;
 }
 
-.dot-active {
-	width: 16px;
-	height: 16px;
-	border-radius: 50%;
-	border: solid  2px #2c2d32; 
-	background-color: #2c2d32;
-}
-
-.dot {
-	width: 16px;
-	height: 16px;
-	border-radius: 50%;
-	border: solid 2px #2c2d32;
+.section1 .fp-slidesNav ul {
+    text-align: right;
 }
 
 
 
 #text1 {
 	transform: translate(0, -50%);
-	/*transition: transform 1s ease;*/
 }
 
 #pic1 {
-	transform: translate(0, 10%);
-	/*transition: transform 1s ease;*/
+	transform: translate(0, 25%);
 }
 
 #text2 {
 	transform: translate(0, -50%);
-	/*transition: transform 1s ease;*/
 }
 
 #pic2 {
-	transform: translate(0, 10%);
-	/*transition: transform 1s ease;*/
+	transform: translate(0, 25%);
 }
 
 #text3 {
@@ -170,7 +145,7 @@ footer {
 }
 
 #pic3 {
-	transform: translate(0, 10%); 
+	transform: translate(0, 25%);
 }
 
 
@@ -179,20 +154,31 @@ footer {
 
 
 
-.welcome {
-	height: 100vh;
-}
 
-.welcome-pic {
+
+.wslide1 {
 	width: 100vw;
 	height: 100vh;
-	background-image: url("../image/welcome.png");
+	background-image: url("../image/welcome1.png");
 	background-size: cover;
 }
 
+.wslide2 {
+	width: 100vw;
+	height: 100vh;
+	background-image: url("../image/welcome2.png");
+	background-size: cover;
+}
+
+.wslide3 {
+	width: 100vw;
+	height: 100vh;
+	background-image: url("../image/welcome3.png");
+	background-size: cover;
+}
 
 .story-latest {
-	height: 75vh;
+	height: 70vh;
 	margin-top: 25vh;
 }
 

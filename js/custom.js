@@ -17,16 +17,66 @@ $(document).ready(function() {
     });
 
 
-    var distance1 = $("#product1").offset().top;
+//    var distance1 = $("#product1").offset().top;
+//
+//    $(window).scroll(function() {
+//        if($(this).scrollTop() >= (0.5 * distance1)) {
+//            $(".dots").fadeIn(200);
+//        } else {
+//            $(".dots").fadeOut(200);
+//        }
+//    });
 
-    $(window).scroll(function() {
-        if($(this).scrollTop() >= (0.5 * distance1)) {
-            $(".dots").fadeIn(200);
-        } else {
-            $(".dots").fadeOut(200);
-        }
+    var slideIndexS = 0;
+    var sliding = false;
+    
+    $("#fullpage").fullpage({
+        controlArrows: false,
+        slidesNavigation: true,
+        slidesNavPosition: "bottom",
+        
+        afterLoad(anchorLink, index) {
+            $("nav").removeClass("nav-up");
+            
+        },
+        
+        afterSlideLoad: function(anchorLink, index, slideAnchor, slideIndex) {
+            slideIndexS = slideIndex + 1;
+            $("nav").removeClass("nav-up");
+            
+        },
+        
+        onLeave: function(index, nextIndex, direction) {
+            $("nav").addClass("nav-up");
+            
+            if (index == 2 && !sliding) {
+                if (direction == "down" && slideIndexS <3) {
+                    $.fn.fullpage.moveSlideRight();
+                    return false;
+                }
+                else if (direction == "up" && slideIndexS > 1) {
+                    $.fn.fullpage.moveSlideLeft();
+                    return false;
+                }
+            }
+            else if (sliding) {
+                return false;
+            }
+        },
+        
+        onSlideLeave: function(anchorLink, index, slideIndex, direction, nextSlideIndex) {
+            $("nav").removeClass("nav-up");
+        },
+        
+        afterRender: function() {
+            setInterval(function() {
+                $.fn.fullpage.moveSlideRight();
+            }, 4000);
+        },
+        
     });
-
+    
+    
 
 
 
