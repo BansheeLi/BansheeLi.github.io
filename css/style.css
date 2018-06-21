@@ -64,7 +64,7 @@ footer {
 .story1 {
 	width: 42vw;
 	height: 40vh;
-	background-image: url("../image/story1.png");
+	background-image: url("../image/story1.jpg");
 	background-size: cover;
 	box-shadow: 0 0 30px rgba(0,0,0,0.3);
 }
@@ -72,7 +72,7 @@ footer {
 .story2 {
 	width: 42vw;
 	height: 40vh;
-	background-image: url("../image/story2.png");
+	background-image: url("../image/story2.jpg");
 	background-size: cover;
 	box-shadow: 0 0 30px rgba(0,0,0,0.3);
 }

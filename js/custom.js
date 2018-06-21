@@ -71,7 +71,7 @@ $(document).ready(function() {
         afterRender: function() {
             setInterval(function() {
                 $.fn.fullpage.moveSlideRight();
-            }, 11000);
+            }, 13000);
         },
         
     });
