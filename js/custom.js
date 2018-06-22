@@ -68,11 +68,11 @@ $(document).ready(function() {
             $("nav").removeClass("nav-up");
         },
         
-//        afterRender: function() {
-//            setInterval(function() {
-//                $.fn.fullpage.moveSlideRight();
-//            }, 13000);
-//        },
+        afterRender: function() {
+            setInterval(function() {
+                $.fn.fullpage.moveSlideRight();
+            }, 13000);
+        },
         
     });
     
