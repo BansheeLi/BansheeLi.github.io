@@ -16,17 +16,6 @@ $(document).ready(function() {
         lastScrollTop = st;
     });
 
-
-//    var distance1 = $("#product1").offset().top;
-//
-//    $(window).scroll(function() {
-//        if($(this).scrollTop() >= (0.5 * distance1)) {
-//            $(".dots").fadeIn(200);
-//        } else {
-//            $(".dots").fadeOut(200);
-//        }
-//    });
-
     var slideIndexS = 0;
     var sliding = false;
     
@@ -34,6 +23,7 @@ $(document).ready(function() {
         controlArrows: false,
         slidesNavigation: true,
         slidesNavPosition: "bottom",
+        scrollOverflow: false,
         
         afterLoad(anchorLink, index) {
             $("nav").removeClass("nav-up");
@@ -69,6 +59,9 @@ $(document).ready(function() {
         },
         
         afterRender: function() {
+            $("#video1")[0].play();
+            $("#video2")[0].play();
+            $("#video3")[0].play();
             setInterval(function() {
                 $.fn.fullpage.moveSlideRight();
             }, 13000);
