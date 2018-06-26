@@ -15,6 +15,10 @@ $(document).ready(function() {
         
         lastScrollTop = st;
     });
+    
+    $("#video1")[0].play();
+    $("#video2")[0].play();
+    $("#video3")[0].play();
 
     var slideIndexS = 0;
     var sliding = false;
