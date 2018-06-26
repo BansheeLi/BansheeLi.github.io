@@ -35,7 +35,7 @@ $(document).ready(function() {
         },
         
         afterSlideLoad: function(anchorLink, index, slideAnchor, slideIndex) {
-            slideIndexS = slideIndex + 1;
+//            slideIndexS = slideIndex + 1;
             $("nav").removeClass("nav-up");
             
         },
@@ -43,19 +43,19 @@ $(document).ready(function() {
         onLeave: function(index, nextIndex, direction) {
             $("nav").addClass("nav-up");
             
-            if (index == 2 && !sliding) {
-                if (direction == "down" && slideIndexS <3) {
-                    $.fn.fullpage.moveSlideRight();
-                    return false;
-                }
-                else if (direction == "up" && slideIndexS > 1) {
-                    $.fn.fullpage.moveSlideLeft();
-                    return false;
-                }
-            }
-            else if (sliding) {
-                return false;
-            }
+//            if (index == 2 && !sliding) {
+//                if (direction == "down" && slideIndexS <3) {
+//                    $.fn.fullpage.moveSlideRight();
+//                    return false;
+//                }
+//                else if (direction == "up" && slideIndexS > 1) {
+//                    $.fn.fullpage.moveSlideLeft();
+//                    return false;
+//                }
+//            }
+//            else if (sliding) {
+//                return false;
+//            }
         },
         
         onSlideLeave: function(anchorLink, index, slideIndex, direction, nextSlideIndex) {
