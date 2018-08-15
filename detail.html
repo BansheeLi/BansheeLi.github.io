@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>ROBUSTIME-DETAIL</title>
+        <!-- css files -->
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.7/jquery.fullpage.css">
+        <link href="https://use.fontawesome.com/releases/v5.0.2/css/all.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat|Montserrat:light">
+        <link rel="stylesheet" type="text/css" href="css/style.css"> 
+<!--        <link rel="shortcut icon" type="text/css" href="image/logo.png">-->
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg fixed-top affix-top" role="navigation">
+            <div class="container" style="position: relative;">
+                <ul class="navbar-nav mr-aut0">
+                    <li class="nav-item">
+                        <a class="nav-link fas fa-long-arrow-alt-left" style="font-size: 24px; color: #2c2d32;" href="index.html"></a>
+                    </li>
+                </ul>
+                <a class="navbar-brand" style="position: absolute; left: 50%; top: 50%; transform: translate(-50%,-50%)" href="index.html">
+                    <img src="image/LOGO-english.png" width="131px" alt="logo">
+                </a>
+            </div>
+        </nav>
+        
+        <section class="product-detail">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-7">
+                        <div class="detail1">
+                            <div class="detail-title">
+                                <h2 style="position: relative; top: 50%; transform: translate(0, -50%); margin-left: 20px;">送货资料</h2>
+                            </div>
+                            <div style="margin-left: 20px; margin-right: 20px; margin-top: 40px;">
+                                <p style="display: inline-block; width: 90px; text-align: justify; text-align-last: justify;">配送地址</p>
+                                <div style="margin-left: 80px; display: inline-block; vertical-align: middle">
+                                    <select class="custom-select">
+                                        <option value="0">选择省份</option>
+                                        <option value="1">北京</option>
+                                        <option value="2">上海</option>
+                                        <option value="3">河北</option>
+                                    </select>
+                                    <select class="custom-select" style="margin-left: 40px;">
+                                        <option value="0">选择城市</option>
+                                        <option value="1">北京</option>
+                                        <option value="2">上海</option>
+                                        <option value="3">河北</option>
+                                    </select>
+                                    <select class="custom-select" style="margin-left: 40px;">
+                                        <option value="0">选择区域</option>
+                                        <option value="1">北京</option>
+                                        <option value="2">上海</option>
+                                        <option value="3">河北</option>
+                                    </select>
+                                    <input type="text" class="form-control" style="display: block; margin-top: 20px; color: #2c2d32;" placeholder="详细地址">
+                                </div>
+                            </div>
+                            <div style="margin-left: 20px; margin-right: 20px; margin-top: 40px;">
+                                <p style="display: inline-block; width: 90px; text-align: justify; text-align-last: justify;">收货人</p>
+                                <div style="margin-left: 80px; display: inline-block; vertical-align: middle">
+                                    <input type="text" class="form-control" style="color: #2c2d32;" placeholder="请输入真实姓名">
+                                </div>
+                            </div>
+                            <div style="margin-left: 20px; margin-right: 20px; margin-top: 40px;">
+                                <p style="display: inline-block; width: 90px; text-align: justify; text-align-last: justify;">联系电话</p>
+                                <div style="margin-left: 80px; display: inline-block; vertical-align: middle">
+                                    <input type="tel" class="form-control" style="color: #2c2d32;" placeholder="请输入有效号码">
+                                </div>
+                            </div>
+                            <div style="margin-left: 20px; margin-right: 20px; margin-top: 40px;">
+                                <p style="display: inline-block; width: 90px; text-align: justify; text-align-last: justify;">电子邮箱</p>
+                                <div style="margin-left: 80px; display: inline-block; vertical-align: middle">
+                                    <input type="text" class="form-control" style="color: #2c2d32;" placeholder="请输入有效邮箱">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="detail3" style="margin-top: 40px;">
+                            <div class="detail-title">
+                                <h2 style="position: relative; top: 50%; transform: translate(0, -50%); margin-left: 20px;">付款方式</h2>
+                            </div>
+                            <div style="margin-left: 20px; margin-right: 20px; margin-top: 40px;">
+                                <label for="credit" class="payment-container" style="margin-top: 20px;">
+                                    <img src="image/credit-pic.png" width="80px" style="display: inline-block;">
+                                    <p style="display: inline-block; margin-left: 30px;">信用卡</p>
+                                    <input type="radio" id="credit" name="payment" style="display: inline-block; margin-left: 350px;">
+                                    <span class="p-checkmark"></span>
+                                </label>
+                                <label for="union" class="payment-container" style="margin-top: 20px;">
+                                    <img src="image/unionpay-pic.png" width="80px" style="display: inline-block;">
+                                    <p style="display: inline-block; margin-left: 30px;">银联卡</p>
+                                    <input type="radio" id="union" name="payment" style="display: inline-block; margin-left: 350px;">
+                                    <span class="p-checkmark"></span>
+                                </label>
+                                <label for="alipay" class="payment-container" style="margin-top: 20px;">
+                                    <img src="image/alipay-pic.png" width="80px" style="display: inline-block;">
+                                    <p style="display: inline-block; margin-left: 30px;">支付宝</p>
+                                    <input type="radio" id="alipay" name="payment" style="display: inline-block; margin-left: 350px;">
+                                    <span class="p-checkmark"></span>
+                                </label>
+                            </div>
+                        </div>
+                        <div style="margin-top: 40px; text-align: center;">
+                            <button type="button" class="confirm-shopping-btn">确定</button>
+                        </div>
+                    </div>
+                    <div class="col-md-4 offset-md-1">
+                        <div class="detail2">
+                            <div class="detail-title">
+                                <h2 style="position: relative; top: 50%; transform: translate(0, -50%); margin-left: 20px;">订单摘要</h2>
+                            </div>
+                            <div style="margin-left: 20px; margin-right: 20px; margin-top: 20px; padding-bottom: 20px; border-bottom: solid 2px #e1e1e4">
+                                <div class="product1-detail"></div>
+                                <h2 style="margin-top: 20px; font-weight: 400;">练呗 &amp; 稻不同 联名款大米</h2>
+                                <h2 style="margin-top: 20px; color: #ff5252;">¥ 199</h2>
+                                <span style="letter-spacing: 2px; margin-top: 20px; display: inline-block;">规格</span>
+                                <span style="letter-spacing: 2px; margin-left: 20px;">2.5 kg</span>
+                                <br>
+                                <span style="letter-spacing: 2px; margin-top: 20px; display: inline-block;">数量</span>
+                                <span style="letter-spacing: 2px; margin-left: 20px;">1</span>
+                            </div>
+                            <div style="margin-top: 20px; margin-left: 20px; margin-right: 20px; position: relative;">
+                                <span style="letter-spacing: 2px;">货品总价</span>
+                                <span style="color: #ff5252; letter-spacing: 2px; position: absolute; right: 0;">¥ 199</span>
+                                <br>
+                                <span style="letter-spacing: 2px; margin-top: 20px; display: inline-block;">实际运费</span>
+                                <span style="letter-spacing: 2px; position: absolute; right: 0; padding-top: 20px;">免费</span>
+                                <br>
+                                <span style="font-size: 24px; margin-top: 20px; margin-top: 20px; display: inline-block;">订单总价</span>
+                                <span style="font-size: 24px; color: #ff5252; letter-spacing: 2px; position: absolute; right: 0; padding-top: 20px;">¥ 199</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="container" style="padding-bottom: 30px;">
+            <div class="row">
+                <div class="col-md-6">
+                    ROBUSTIME &copy; 2018 All Rights Reserved.
+                </div>
+                <div class="col-md-6 d-flex justify-content-end">
+                    <a class="fab fa-weixin" style="font-size: 24px"></a>
+                    <a class="fab fa-weibo" style="font-size: 24px; padding-left: 15px"></a>
+                </div>
+            </div>
+        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.7/jquery.fullpage.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/custom.js"></script>
+    </body>
+</html>
